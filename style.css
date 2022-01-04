@@ -2,6 +2,8 @@
 body{
     margin: 0px;
     padding: 0px;
+
+    
 }
 h1{
     font-weight: 700;
@@ -34,6 +36,7 @@ h1{
   }
 .hero-section{
     display: flex;
+    background-color: #f2f2f2;
     
 }
 .hero-section img{
@@ -42,5 +45,33 @@ h1{
 .middle-section{
     width: 50%;
     padding: 60px;
-    background-color: #f2f2f2;
+    
+}
+.main-experience{
+    display: flex;
+    margin-bottom: 100px;
+}
+.experience-section{
+    margin-left: 10px;
+    
+}
+.exper{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+#left-exp{
+    padding: 5%; 
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+    
+}
+#right-exp{
+    padding: 5%; 
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,grey);
+    border-image-slice: 1;
 }
