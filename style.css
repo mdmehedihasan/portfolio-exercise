@@ -75,3 +75,28 @@ h1{
     border-image: linear-gradient(orange,grey);
     border-image-slice: 1;
 }
+.my-skill{
+    display: flex;
+    margin: 0 auto;
+    padding:0px 50px 0px 50px ;
+}
+.part-1{
+writing-mode: vertical-lr;
+width: 5%;
+padding-top: 30px;
+}
+
+.part-2{
+    width: 65%;
+    
+}
+
+.part-3{
+width: 30%;
+
+  
+}
+.part-3 img{
+    width: 80%;
+}
+
